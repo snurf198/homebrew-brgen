@@ -11,7 +11,7 @@ cask "brgen" do
   homepage "https://github.com/snurf198/branch-name-generator"
 
   # 실제 설치될 앱 이름 (압축 해제 후 나오는 .app 파일명)
-  app "brgen.app"
+  app "BranchNameGenerator.app", target: "brgen.app"
 
   # (선택 사항) 앱 실행 시 충돌을 방지하기 위한 설정
   zap trash: [

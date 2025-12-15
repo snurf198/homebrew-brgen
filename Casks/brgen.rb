@@ -1,7 +1,7 @@
 cask "brgen" do
   version "1.0.0"
   # 아래 sha256은 zip 파일의 해시값이어야 합니다 (확인 방법은 하단 참조)
-  sha256 "24770744726294578dc80277a87ead3b9d40e2395bb661623e21d4a30a4d1efb"
+  sha256 "b2435d69f4c501b2a8fbf7102be4fa004677acdfee5c0f975d37a19a2d38cd00"
 
   # GitHub Release에서 복사한 zip 파일 다운로드 주소
   url "https://github.com/snurf198/branch-name-generator/releases/download/v1.0.0/BranchNameGenerator.zip"
